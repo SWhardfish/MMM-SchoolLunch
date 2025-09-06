@@ -2,6 +2,7 @@
 
 A [MagicMirror²](https://magicmirror.builders/) module that displays today’s school lunch menu from [Matilda Platform](https://menu.matildaplatform.com/) for schools in Sweden.
 
+![img.png](screenshots/img.png)
 ---
 
 ## ✨ Features
@@ -100,20 +101,17 @@ You can adjust styling in your custom.css file. Example:
 }
 ```
 
-## 📸 Screenshot
-![img.png](screenshots/img.png)
-
 ## 🔧 Configurable Options
 
-| Option           | Type        | Default              | Description                                          |
-| ---------------- | ----------- | -------------------- | ---------------------------------------------------- |
-| `schoolId`       | String      | *(none)*             | The ID of your school from the Matilda Platform URL. |
-| `title`          | String      | "School Lunch"       | The title displayed at the top of the module.        |
-| `symbol`         | String      | *(none)*             | Optional Font Awesome icon name (e.g. `"school"`).   |
-| `symbolColor`    | String      | *(none)*             | Optional CSS color for the icon (e.g. `"#BE6F4E"`).  |
-| `showVegetarian` | Boolean     | `true`               | Show or hide the vegetarian option.                  |
-| `updateInterval` | Number (ms) | `6 * 60 * 60 * 1000` | How often the menu should refresh (in ms).           |
-| `fallbackText`   | String      | "No lunch today"     | Text shown when no lunch is available.               |
+| Option           | Type        | Default              | Description                                                                              |
+| ---------------- | ----------- | -------------------- |------------------------------------------------------------------------------------------|
+| `schoolId`       | String      | *(none)*             | The ID of your school from the Matilda Platform URL.                                     |
+| `title`          | String      | "School Lunch"       | The title displayed at the top of the module.                                            |
+| `symbol`         | String      | *(none)*             | Title icon (optional) Font Awesome icon name (e.g. `"school"`). Leave empty for no icon. |
+| `symbolColor`    | String      | *(none)*             | Title icon (optional) CSS color for the icon (e.g. `"#BE6F4E"`).                         |
+| `showVegetarian` | Boolean     | `true`               | Show or hide the vegetarian option.                                                      |
+| `updateInterval` | Number (ms) | `6 * 60 * 60 * 1000` | How often the menu should refresh (in ms).                                               |
+| `fallbackText`   | String      | "No lunch today"     | Text shown when no lunch is available.                                                   |
 
 
 ## 📜 License
